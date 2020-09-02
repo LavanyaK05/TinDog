@@ -1,0 +1,183 @@
+/*title*/
+
+#title {
+	background-color : #ff4c68;
+	color: #fff; 
+	/*height: 45rem;*/
+}
+
+body
+{
+	font-family: 'Montserrat';
+}
+
+h1{
+	font-family: 'Montserrat';
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/*title image*/
+.title-img{
+	width:50%;
+	transform :rotate(25deg);
+	/*margin-top: 12px;*/
+	position: absolute;
+	z-index: 0;
+
+}
+
+.container-fluid
+{
+	padding : 3% 15%;
+}
+
+
+/* Navigation Bar*/
+.navbar{
+	padding:0 0 4.5rem;
+}
+
+.navbar{
+	padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.nav-link{
+	font-size: 1.5rem;
+}
+
+/*Download button*/
+
+.btn-download{
+	padding-bottom: 7% 5% 7% 5%;
+	margin:5% 3% 5% 0;
+	font-size: 25px;
+}
+
+
+/*Features*/
+#features{
+	background-color: #fff;
+	z-index: 1;
+	position: relative;
+}
+ 
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+
+.feature-icon:hover{
+	color: #ef8172;
+}
+
+.feature-icon{
+	color: #ff4c68;
+	padding-bottom: 1rem;
+
+}
+
+h3{
+	font-weight: bold;
+	font-size: 40px;
+}
+p{
+	font-size: 25px;
+	color: grey;
+}
+
+/*testimonials*/
+h2{
+	font-family: "Montserrat";
+	font-weight: 900;
+}
+
+#testimonials{
+	background-color: #ef8172;
+	color: #fff;
+	text-align: center;
+}
+
+.carousel-item{
+    padding: 7% 15% 3% 15%;
+}
+
+.testimonials-image{
+	border-radius:100%;
+	width:20%;
+	margin: 3%;
+
+}
+
+
+
+/*press*/
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+}
+
+.press-logo{
+	width: 15%;
+	margin: 3px 20px 40px;
+}
+
+/*pricing*/
+.price-btn{
+	background-color: #ff4c68;
+	color:#fff;
+}
+
+.price-btn:hover{
+	background-color:#ef8172;
+}
+
+/*Making the website responsive using css*/
+
+@media (max-width: 1036px){
+#title{
+	text-align: center;
+}
+
+.title-img{
+	position: static;
+	transform: rotate(0);
+}
+
+}
+
+/*cta section*/
+
+#cta{
+	padding-top: 50px; 
+	padding-bottom: 50px;
+	background-color: #ff4c68;
+	color: #fff;
+	font-family: "Montserrat";
+	text-align :center;
+}
+
+
+
+/* Footer */
+#footer{
+ 	padding-top: 100px;
+ 	padding-bottom: 50px;
+ 	text-align: center;
+ }
+
+ .footer-icon{
+ 	margin-left: 15px;
+ }
